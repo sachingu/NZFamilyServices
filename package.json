@@ -1,0 +1,23 @@
+{
+  "name": "nzfamilyservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^1.17.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sachingu@github.com/sachingu/NZFamilyServices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachingu/NZFamilyServices/issues"
+  },
+  "homepage": "https://github.com/sachingu/NZFamilyServices#readme"
+}
