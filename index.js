@@ -16,6 +16,7 @@ async function extractProviderDetails(page, providerUrl) {
 
     await page.goto(providerUrl);
     const result = {
+        ProviderUrl: providerUrl,
         ServiceName: await page.evaluate(() => document.querySelector('.result .result-title').childNodes[0].textContent),
         ServiceId: await page.evaluate(() => /^[\w\d]+/.exec(document.querySelector('.result .result-title').childNodes[1].innerText)[0]),
         WebsiteUrl: await page.evaluate(() => document.querySelector('.result p.websites a').href),
